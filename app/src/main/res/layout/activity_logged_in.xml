@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context="com.rvlb.quizapp.LoggedInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/llPickTheme">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="com.rvlb.quizapp.PickThemeFragment"
+            android:id="@+id/fgPickTheme"
+            tools:layout="@layout/fragment_pick_theme"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/llAnswerQuestion"
+        android:visibility="gone">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="com.rvlb.quizapp.AnswerQuestionFragment"
+            android:id="@+id/fgAnswerQuestion"
+            tools:layout="@layout/fragment_answer_question"/>
+    </LinearLayout>
+
+</LinearLayout>

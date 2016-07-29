@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="login_hint">Usuário</string>
+    <string name="pwd_hint">Senha</string>
+    <string name="label_login">ENTRAR</string>
+    <string name="wrong_user_msg">Usuário incorreto</string>
+    <string name="label_pick_theme">INICIAR</string>
+    <string name="label_option_home">Temas</string>
+    <string name="label_option_logout">Sair</string>
+    <string name="theme_option_default">Escolha um tema</string>
+    <string name="theme_option_1">Matemática</string>
+    <string name="theme_option_2">Filmes</string>
+    <string name="theme_option_3">Computação</string>
+    <string name="theme_option_4">Jogos</string>
+    <string name="theme_option_5">Música</string>
+    <string name="theme_option_6">Assuntos Gerais</string>
+    <string name="label_answer_question">RESPONDER</string>
+    <string name="quiz_result_title">RESULTADO</string>
+    <string name="quiz_result_text">Você acertou: </string>
+    <string name="label_ok">OK</string>
+    <string name="no_questions_msg">Não há questões cadastradas para este tema</string>
+    <string name="no_answer_selected_msg">Escolha uma opção</string>
+</resources>
